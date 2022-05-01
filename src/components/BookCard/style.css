@@ -1,0 +1,54 @@
+.card{
+    position: relative;
+}
+
+.card img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 0.1rem 0.6rem #8d8c8c;
+}
+
+.section_card{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 0;
+    padding: 10px 0 100px 0;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 0.1rem 0.6rem #8d8c8c;
+    position: relative;
+    top: -15px;
+}
+.card h2{
+ font-size: 12px;
+ padding: 16px;
+
+}
+.card p{
+    font-size: 12px;
+    padding:0 16px;
+}
+
+.add {
+    position: absolute;
+    bottom:30px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width:100px;
+    padding: 0 40px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 19px;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+}
+.add p{
+    text-align: center;   
+}
